@@ -7,7 +7,7 @@ eureka:
     healthcheck:
       enabled: true   
   instance:
-#    prefer-ip-address: true
+    prefer-ip-address: true
    #续约更新时间间隔
     lease-renewal-interval-in-seconds: 30
     #续约到期时间默认90秒
